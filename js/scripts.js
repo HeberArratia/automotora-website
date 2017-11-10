@@ -1,8 +1,7 @@
 $(document).ready(function(){
 	$('.carousel').flickity({
 		  // options
-		autoPlay: 3000,
-		initialIndex: 1
+		autoPlay: 3000
 	});
     /*
 

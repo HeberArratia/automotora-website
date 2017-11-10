@@ -1,11 +1,12 @@
 #main-banner{
-	height: 550px;
+	height: 580px;
     width: 100%;
     background-image: linear-gradient(to top, rgba(#1e3c72, 1) , rgba(#1e3c72, .5) , rgba(#2a5298, .6));
     z-index: 3;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+    padding-bottom: 100px;
     &:before{
 	    background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTk4MCAyMTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE5ODAgMjEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CgkgPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIxOTgwLDIxMCAwLDIxMCAwLDE5NS41IDE5ODAsMCAiLz4KPC9zdmc+");
 	    bottom: -1px;
