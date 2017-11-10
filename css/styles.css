@@ -45,7 +45,7 @@ h6 {
 
 body {
   /* Location of the image */
-  background-image: url("../img/bannerback.jpg");
+  background-image: url("../img/bannerclean.jpg");
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
   /* Background image doesn't tile */
@@ -62,11 +62,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, div, p, span, a {
   font-family: "Rubik", "Open Sans", sans-serif; }
-
-#content {
-  height: 500px;
-  width: 100%;
-  background: #FFF; }
 
 #main-menu {
   background-color: #fff; }
@@ -247,3 +242,10 @@ h1, h2, h3, h4, h5, h6, div, p, span, a {
     left: -40px; }
   #slide-ofertas .flickity-prev-next-button.next {
     right: -40px; }
+
+#data-cars {
+  background: #fff;
+  padding-bottom: 100px; }
+  #data-cars h3 {
+    padding-top: 20px;
+    font-size: 35px; }
