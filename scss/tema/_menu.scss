@@ -1,0 +1,40 @@
+#main-menu{
+	background-color: #fff;
+	.navbar{
+		margin-bottom: 0;
+	}
+    .navbar-brand {
+  		padding: 0px;
+  		height: 80px;
+  		img {
+	  		height: 100%;
+	  		padding: 15px;
+	  		width: auto;
+		}
+	}
+
+	.active a{
+		//background-color: red;
+		font-weight: 600;
+	}
+	.navbar-toggle{
+		border: 1px solid rgba(black, .4);
+		.icon-bar{
+			background-color: #000 !important;
+		}
+	}
+	.nav >li >a {
+	 	padding-top: 30px;
+	 	padding-bottom: 30px;
+	 	font-family: $rubik;
+	 	&:hover{
+			color: #000;
+		}
+	}
+
+	.navbar-toggle {
+	 	padding: 10px;
+	  	margin: 25px 15px 25px 0;
+	}
+
+}

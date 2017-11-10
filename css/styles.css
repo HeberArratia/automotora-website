@@ -1,0 +1,249 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+body {
+  background: #FDFDFD;
+  font-family: "Open Sans", sans-serif;
+  color: #070D12; }
+
+a {
+  color: initial;
+  text-decoration: none; }
+
+p, blockquote, li {
+  font-size: 1em;
+  line-height: 1.5; }
+
+p {
+  margin: 0 0 1em 0; }
+  p:last-child, p:only-child {
+    margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: normal;
+  color: #070D12; }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1em; }
+
+h5 {
+  font-size: 0.9em; }
+
+h6 {
+  font-size: 0.8em; }
+
+body {
+  /* Location of the image */
+  background-image: url("../img/bannerback.jpg");
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #fff; }
+
+h1, h2, h3, h4, h5, h6, div, p, span, a {
+  font-family: "Rubik", "Open Sans", sans-serif; }
+
+#content {
+  height: 500px;
+  width: 100%;
+  background: #FFF; }
+
+#main-menu {
+  background-color: #fff; }
+  #main-menu .navbar {
+    margin-bottom: 0; }
+  #main-menu .navbar-brand {
+    padding: 0px;
+    height: 80px; }
+    #main-menu .navbar-brand img {
+      height: 100%;
+      padding: 15px;
+      width: auto; }
+  #main-menu .active a {
+    font-weight: 600; }
+  #main-menu .navbar-toggle {
+    border: 1px solid rgba(0, 0, 0, 0.4); }
+    #main-menu .navbar-toggle .icon-bar {
+      background-color: #000 !important; }
+  #main-menu .nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Rubik", "Open Sans", sans-serif; }
+    #main-menu .nav > li > a:hover {
+      color: #000; }
+  #main-menu .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0; }
+
+#main-banner {
+  height: 550px;
+  width: 100%;
+  background-image: linear-gradient(to top, #1e3c72, rgba(30, 60, 114, 0.5), rgba(42, 82, 152, 0.6));
+  z-index: 3;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden; }
+  #main-banner:before {
+    background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTk4MCAyMTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE5ODAgMjEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CgkgPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIxOTgwLDIxMCAwLDIxMCAwLDE5NS41IDE5ODAsMCAiLz4KPC9zdmc+");
+    bottom: -1px;
+    content: '';
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 210px;
+    position: absolute;
+    left: -10px;
+    right: -10px; }
+  #main-banner h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 4em;
+    color: #fff; }
+  #main-banner #sub-title {
+    background: rgba(255, 0, 9, 0.8);
+    padding: 4px 20px;
+    width: 300px;
+    margin: 0 auto; }
+    #main-banner #sub-title h5 {
+      font-size: 20px;
+      text-align: center;
+      color: #fff; }
+  #main-banner #btn-ver-of-a {
+    text-align: center;
+    margin: 0 auto;
+    display: block; }
+    #main-banner #btn-ver-of-a #btn-ver-of {
+      background: #FF0009;
+      font-size: 20px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 10px 50px;
+      font-family: "Rubik", "Open Sans", sans-serif; }
+  @media (max-width: 991px) {
+    #main-banner h2 {
+      padding-top: 85px;
+      margin: 0 auto;
+      width: 500px;
+      padding-bottom: 30px; } }
+  @media (max-width: 450px) {
+    #main-banner h2 {
+      padding-top: 40px;
+      width: 100%;
+      padding-bottom: 30px; } }
+
+#modal {
+  min-width: 390px; }
+  #modal .iziModal-header-title {
+    font-size: 2em;
+    font-weight: 600; }
+  #modal #content-modal {
+    padding: 20px; }
+    #modal #content-modal h4 {
+      font-size: 2em;
+      margin-bottom: 20px; }
+    #modal #content-modal h6 {
+      font-size: 1.5em;
+      margin-bottom: 20px; }
+    #modal #content-modal .contact {
+      margin-bottom: 20px; }
+      #modal #content-modal .contact span {
+        display: block; }
+      #modal #content-modal .contact .name {
+        font-size: 2em;
+        font-weight: 600; }
+      #modal #content-modal .contact .mail {
+        font-size: 1.8em;
+        text-decoration: underline; }
+
+#slide-ofertas {
+  position: absolute;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 5;
+  /* smaller, dark, rounded square */
+  /* arrow color */
+  /* position outside */ }
+  #slide-ofertas .carousel {
+    width: 728px;
+    height: 260px;
+    margin: 0 auto;
+    /* space for prev/next buttons */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    #slide-ofertas .carousel .carousel-cell {
+      width: 100%;
+      /* half-width */
+      height: 260px;
+      background: #FFF;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      margin-bottom: 15px; }
+      #slide-ofertas .carousel .carousel-cell img {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        object-fit: cover; }
+      #slide-ofertas .carousel .carousel-cell .slide-oferta-content {
+        border-top: 10px solid #FF0009;
+        padding: 10px 15px;
+        padding-top: 0px;
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: #FFF; }
+        #slide-ofertas .carousel .carousel-cell .slide-oferta-content h3 {
+          font-size: 25px; }
+        #slide-ofertas .carousel .carousel-cell .slide-oferta-content .slide-data {
+          padding-bottom: 8px;
+          display: block; }
+          #slide-ofertas .carousel .carousel-cell .slide-oferta-content .slide-data .con {
+            font-weight: 600; }
+          #slide-ofertas .carousel .carousel-cell .slide-oferta-content .slide-data .con-end {
+            padding-left: 10px; }
+        #slide-ofertas .carousel .carousel-cell .slide-oferta-content .slide-cant {
+          font-size: 25px;
+          font-weight: 600; }
+          #slide-ofertas .carousel .carousel-cell .slide-oferta-content .slide-cant .sig-data {
+            font-style: italic; }
+  #slide-ofertas .oferta-slide-card {
+    background: blue;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  #slide-ofertas .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: #333; }
+  #slide-ofertas .flickity-prev-next-button:hover {
+    background: #FF0009; }
+  #slide-ofertas .flickity-prev-next-button .arrow {
+    fill: white; }
+  #slide-ofertas .flickity-prev-next-button.no-svg {
+    color: white; }
+  #slide-ofertas .flickity-prev-next-button.previous {
+    left: -40px; }
+  #slide-ofertas .flickity-prev-next-button.next {
+    right: -40px; }
