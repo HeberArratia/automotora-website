@@ -177,12 +177,19 @@ footer {
       margin: 0 auto;
       width: 500px;
       padding-bottom: 30px; } }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     #main-banner h2 {
-      padding-top: 40px;
+      padding-top: 100px;
       width: 100%;
       padding-bottom: 30px;
-      font-size: 4em;
+      font-size: 3em;
+      width: 90%; } }
+  @media (max-width: 400px) {
+    #main-banner h2 {
+      padding-top: 80px;
+      width: 100%;
+      padding-bottom: 30px;
+      font-size: 3em;
       width: 90%; } }
   @media (max-width: 991px) {
     #main-banner {

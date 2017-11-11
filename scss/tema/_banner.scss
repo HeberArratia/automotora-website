@@ -59,12 +59,22 @@
         padding-bottom: 30px;
       }
     }
-    @media (max-width: 450px) {
+    //media unido
+    @media (max-width: 500px) {
+        h2{
+            padding-top: 100px;
+            width: 100%;
+            padding-bottom: 30px;
+            font-size: 3em;
+            width: 90%;
+        }
+    }
+    @media (max-width: 400px) {
       h2{
-        padding-top: 40px;
+        padding-top: 80px;
         width: 100%;
         padding-bottom: 30px;
-        font-size: 4em;
+        font-size: 3em;
         width: 90%;
       }
     }
