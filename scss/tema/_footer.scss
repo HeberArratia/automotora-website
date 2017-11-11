@@ -22,4 +22,24 @@ footer{
 		margin-top: 30px;
 		padding-top: 10px;
 	}
+	#data-contact{
+		#contact-list{
+			ul{
+				margin-top: 10px;
+				border-top: 1px solid #fff;
+				padding-left: 0;
+				list-style-type: none;
+				li{
+					font-size: 20px;
+					font-weight: 300;
+					border-bottom: 1px solid #fff;
+					padding-top: 3px;
+					padding-bottom: 3px;
+					a{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
 }
