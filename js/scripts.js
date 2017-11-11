@@ -3,6 +3,10 @@ $(document).ready(function(){
 		  // options
 		autoPlay: 3000
 	});
+
+	$(window).load(function(){
+      $('.preloader').fadeOut(1000); // set duration in brackets    
+    });
     /*
 
 	if ($(window).width() > 960) {

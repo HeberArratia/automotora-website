@@ -339,3 +339,37 @@ footer {
   @media (max-width: 991px) {
     #data-cars {
       padding-top: 40px; } }
+
+/* start preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  /*justify-content: center;*/
+  -ms-flex-align: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #fff; }
+
+.sk-spinner-rotating-plane.sk-spinner {
+  width: 30px;
+  height: 30px;
+  background-color: steelblue;
+  margin: 0 auto;
+  animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+
+@keyframes sk-rotatePlane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+/* end preloader */
