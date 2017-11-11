@@ -68,5 +68,12 @@
         width: 90%;
       }
     }
+    //media unido
+    @media (max-width: 991px) {
+        height: 370px;
+        &:before{
+            display: none;
+        }
+    }
        
 }

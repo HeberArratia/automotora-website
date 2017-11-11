@@ -63,6 +63,27 @@ body {
 h1, h2, h3, h4, h5, h6, div, p, span, a {
   font-family: "Rubik", "Open Sans", sans-serif; }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #0F1115;
+  color: #fff; }
+  footer h3 {
+    border-left: 8px solid #fff;
+    padding-left: 16px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 35px; }
+  footer .title-border-1 {
+    border-left-color: #FF1031; }
+  footer .title-border-2 {
+    border-left-color: #08538B; }
+  footer #end-sign {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    padding-top: 10px; }
+
 #main-menu {
   background-color: #fff; }
   #main-menu .navbar {
@@ -150,6 +171,11 @@ h1, h2, h3, h4, h5, h6, div, p, span, a {
       padding-bottom: 30px;
       font-size: 4em;
       width: 90%; } }
+  @media (max-width: 991px) {
+    #main-banner {
+      height: 370px; }
+      #main-banner:before {
+        display: none; } }
 
 #modal {
   min-width: 390px; }
@@ -204,7 +230,6 @@ h1, h2, h3, h4, h5, h6, div, p, span, a {
         float: left;
         object-fit: cover; }
       #slide-ofertas .carousel .carousel-cell .slide-oferta-content {
-        border-top: 10px solid #FF0009;
         padding: 10px 15px;
         padding-top: 0px;
         width: 50%;
@@ -251,7 +276,7 @@ h1, h2, h3, h4, h5, h6, div, p, span, a {
 
 #data-cars {
   background: #fff;
-  padding-bottom: 100px; }
+  padding-bottom: 30px; }
   #data-cars h3 {
     font-size: 35px;
     margin-bottom: 50px;
@@ -291,8 +316,6 @@ h1, h2, h3, h4, h5, h6, div, p, span, a {
       margin-top: 15px;
       width: 90%;
       margin-bottom: 20px; }
-  @media (max-width: 800px) {
+  @media (max-width: 991px) {
     #data-cars {
-      margin-top: -120px;
-      z-index: 10;
-      position: absolute; } }
+      padding-top: 40px; } }

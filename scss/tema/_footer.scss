@@ -1,0 +1,25 @@
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #0F1115;
+	color: #fff;
+	h3{
+		border-left: 8px solid #fff;
+		padding-left: 16px;
+		color: #fff;
+		font-size: 2em;
+		font-weight: 400;
+		margin-bottom: 35px;
+	}
+	.title-border-1{
+		border-left-color: #FF1031;
+	}
+	.title-border-2{
+		border-left-color: #08538B;
+	}
+	#end-sign{
+		border-top: 1px solid rgba(#fff, .5);
+		margin-top: 30px;
+		padding-top: 10px;
+	}
+}
