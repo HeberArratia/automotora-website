@@ -499,3 +499,5 @@ footer {
       margin: 0 auto; }
       #individual-car #individual-esp #esp-table table .con {
         font-weight: 600; }
+    #individual-car #individual-esp #esp-table table > tbody > tr:first-child > td {
+      border-top: none; }
