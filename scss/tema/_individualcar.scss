@@ -1,0 +1,156 @@
+.lg-backdrop{
+	background: rgba(#000, .8);
+}
+
+#individual-car{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #fff;
+	#individual-car-title{
+		margin-bottom: 10px;
+		h3{
+			margin: 0;
+			text-align: center;
+			font-size: 3em;
+			font-weight: 400;
+			margin-bottom: 30px;
+			color: #003D68;
+		}
+		h5{
+			text-align: center;
+			font-size: 3em;
+			margin-bottom: 20px;
+			color: #EA7A2C;
+			span{
+				font-style: italic;
+			}
+		}
+		p{
+			text-align: center;
+			max-width: 700px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+	}
+	#fast-contact{
+		width: 100%;
+		background: #F5F5F5;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1.5em;
+		color: #003D68;
+		margin: 0px;
+		.fast-contact-item{
+			padding: 0;
+		}
+	}
+	#individual-cat-gallery{
+		margin-top: 34px;
+		margin-bottom: 50px;
+		//margin-left: 15px !important;
+ 		.img-car{
+ 			margin-bottom: 0px;
+ 			padding: 0px;
+ 			overflow: hidden;
+ 			border: 2px solid #fff;
+ 			position: relative;
+			img{
+				display: block;
+				transition: all .3s;
+				height: 200px;
+				width: 100%;
+				object-fit: cover;
+			}
+			&:hover{
+				img{
+					transform: scale(1.1);
+					cursor: pointer;	
+				}	
+				&:after{
+					opacity: 1;
+					transition: all .3s;
+				}
+		    }
+			&:after{
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/lupa.png') rgba(#003D68, .5);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 4em 4em;
+				opacity: 0;
+				cursor: pointer;
+			}
+ 		}
+	}	
+	#lightgallery{
+		margin-top: 38px;
+		margin-bottom: 50px;
+		a{
+			overflow: hidden;
+			display: block;
+			width: 50%;
+			float: left;
+			border: 2px solid #fff;
+			position: relative;
+			img{
+				display: block;
+				transition: all .3s;
+				height: 200px;
+				width: 100%;
+				object-fit: cover;
+			}
+			&:hover{
+				img{
+					transform: scale(1.1);
+					cursor: pointer;	
+				}	
+				&:after{
+					opacity: 1;
+					transition: all .3s;
+				}
+		    }
+			&:after{
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/lupa.png') rgba(#003D68, .5);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 4em 4em;
+				opacity: 0;
+				cursor: pointer;
+			}	
+		}
+	}
+	#individual-esp{
+		h4{
+			font-size: 2em;
+			font-weight: 400;
+			text-align: center;
+			color: #333333;
+			display: none;
+		}
+		#esp-table{
+			margin-top: 40px;
+			table{
+				max-width: 700px;
+				margin: 0 auto;
+				.con{
+					font-weight: 600;
+				}
+				.def{
+
+				}
+			}
+		}
+	}
+}
