@@ -62,6 +62,7 @@
   @import "base/base";
 
 // Tema. Los componentes básicos de cualquier proyecto
+  @import "tema/preloader";
   @import "tema/main";
   @import "tema/header";
   @import "tema/footer";
@@ -70,7 +71,6 @@
   @import "tema/modal"; 
   @import "tema/ofertasslider";
   @import "tema/datacars";
-  @import "tema/preloader";
   @import "tema/individualcar";
 
 // Modulos. Los componentes que se repiten en varias partes del proyecto
