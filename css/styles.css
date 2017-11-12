@@ -100,7 +100,8 @@ footer {
 #main-menu {
   background-color: #fff; }
   #main-menu .navbar {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
   #main-menu .navbar-brand {
     padding: 0px;
     height: 80px; }
@@ -449,7 +450,7 @@ footer {
         cursor: pointer; }
   #individual-car #lightgallery {
     margin-top: 38px;
-    margin-bottom: 50px; }
+    margin-bottom: 40px !important; }
     #individual-car #lightgallery a {
       overflow: hidden;
       display: block;

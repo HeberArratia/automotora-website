@@ -90,7 +90,7 @@
 	}	
 	#lightgallery{
 		margin-top: 38px;
-		margin-bottom: 50px;
+		margin-bottom: 40px !important;
 		a{
 			overflow: hidden;
 			display: block;
@@ -131,6 +131,7 @@
 			}	
 		}
 	}
+
 	#individual-esp{
 		h4{
 			font-size: 2em;
@@ -139,6 +140,7 @@
 			color: #333333;
 			display: none;
 		}
+		
 		#esp-table{
 			margin-top: 40px;
 			table{
