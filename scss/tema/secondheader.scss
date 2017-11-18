@@ -1,0 +1,17 @@
+#second-header{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+	background-image: url("../img/bannertran.png"), linear-gradient(to top, rgba(#1e3c72, 1) , rgba(#1e3c72, 1) , rgba(#2a5298, 1)); /* W3C */
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+	h2{
+		font-size: 3.5em;
+		color: #FFF;
+	}
+}

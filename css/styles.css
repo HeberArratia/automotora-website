@@ -95,6 +95,10 @@ body {
 h1, h2, h3, h4, h5, h6, div, p, span, a {
   font-family: "Rubik", "Open Sans", sans-serif; }
 
+button, .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  outline: none !important;
+  outline-offset: -2px !important; }
+
 footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -481,3 +485,17 @@ footer {
         font-weight: 600; }
     #individual-car #individual-esp #esp-table table > tbody > tr:first-child > td {
       border-top: none; }
+
+#second-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-image: url("../img/bannertran.png"), linear-gradient(to top, #1e3c72, #1e3c72, #2a5298);
+  /* W3C */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #second-header h2 {
+    font-size: 3.5em;
+    color: #FFF; }
