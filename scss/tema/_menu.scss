@@ -1,6 +1,13 @@
-#main-menu{
+#menu-space{
+	height: 80px;
+}
 
+#main-menu{
+	top: 0;
 	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
 	.navbar{
 		margin-bottom: 0;
 		box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
